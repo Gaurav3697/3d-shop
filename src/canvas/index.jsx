@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber"
 import {Environment, Center} from "@react-three/drei"
-import Shirt from "./Shirt"
+import Shirt from "./Shirt.jsx"
 
 const CanvasModel = () => {
   return (

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useSnapshot } from 'valtio'
-import config from '../config/config'
+import config from '../config/config.js'
 import state from '../store'
 import { download } from '../assets'
-import { downloadCanvasToImage, reader } from '../config/helpers'
-import { EditorTabs, FilterTabs, DecalTypes } from '../config/constants';
-import { fadeAnimation, slideAnimation } from '../config/motion'
+import { downloadCanvasToImage, reader } from '../config/helpers.js'
+import { EditorTabs, FilterTabs, DecalTypes } from '../config/constants.js';
+import { fadeAnimation, slideAnimation } from '../config/motion.js'
 import { ColorPicker, CustomButton, FilePicker, Tab } from '../components';
 
 const Customizer = () => {
